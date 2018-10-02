@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://localhost:8080/restaurantes",
+  "type": "object",
+  "properties": {
+    "created_at": {
+      "id": "http://http://localhost:8080/restaurantes/created_at",
+      "type": "integer"
+    },
+    "id": {
+      "id": "http://http://localhost:8080/restaurantes/1/id",
+      "type": "integer"
+    },
+    "username": {
+      "id": "http://http://localhost:8080/restaurantes/1/nome",
+      "type": "string"
+    }
+  },
+  "required": [
+    "created_at",
+    "id",
+    "nome"
+  ]
+}
